@@ -1,0 +1,16 @@
+set clipboard+=unnamed
+set ignorecase
+set smartcase
+set wrapscan
+set hlsearch
+set nowrap
+set incsearch
+set splitright
+set splitbelow
+
+let mapleader="\<Space>"
+
+nmap <Leader>q :q<CR>
+nmap <Leader>w :w<CR>
+
+nmap <Leader>, :noh<CR>
